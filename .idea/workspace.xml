@@ -22,24 +22,22 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Code_108_ConvertSortedArrayToBinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Easy/Code_108_ConvertSortedArrayToBinarySearchTree.java">
+    <leaf>
+      <file leaf-file-name="Code_771_JewelsAndStones.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Easy/Code_771_JewelsAndStones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="44" column="5" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code_198_HouseRobber.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Easy/Code_198_HouseRobber.java">
+      <file leaf-file-name="Code_461_HammingDistance.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Easy/Code_461_HammingDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+            <state relative-caret-position="230">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -107,6 +105,11 @@
         <option value="$PROJECT_DIR$/src/Easy/Code_326_PowerOfThree.java" />
         <option value="$PROJECT_DIR$/src/Easy/Code_191_NumberOf1Bits.java" />
         <option value="$PROJECT_DIR$/src/Easy/Code_198_HouseRobber.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_172_FactorialTrailingZeroes.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_141_LinkedListCycle.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_234_PalindromeLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_771_JewelsAndStones.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_461_HammingDistance.java" />
       </list>
     </option>
   </component>
@@ -167,9 +170,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_198_HouseRobber">
+  <component name="RunManager" selected="Application.Code_172_FactorialTrailingZeroes">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -258,6 +261,25 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
+    <configuration name="Code_172_FactorialTrailingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Easy.Code_172_FactorialTrailingZeroes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetCode" />
+      <envs />
+    </configuration>
     <configuration name="Code_198_HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -285,25 +307,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Easy.Code_202_HappyNumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetCode" />
-      <envs />
-    </configuration>
-    <configuration name="Code_371_SumOfTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Easy.Code_371_SumOfTwoIntegers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -390,19 +393,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Code_371_SumOfTwoIntegers" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Code_122_BestTimeToBuyAndSellStock" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Code_108_ConvertSortedArrayToBinarySearchTree" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Code_202_HappyNumber" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Code_198_HouseRobber" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Code_122_BestTimeToBuyAndSellStock" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Code_108_ConvertSortedArrayToBinarySearchTree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Code_202_HappyNumber" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Code_198_HouseRobber" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Code_172_FactorialTrailingZeroes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Code_198_HouseRobber" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Code_202_HappyNumber" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Code_108_ConvertSortedArrayToBinarySearchTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Code_122_BestTimeToBuyAndSellStock" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Code_371_SumOfTwoIntegers" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Code_172_FactorialTrailingZeroes" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Code_198_HouseRobber" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Code_202_HappyNumber" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Code_108_ConvertSortedArrayToBinarySearchTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Code_122_BestTimeToBuyAndSellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -436,11 +439,13 @@
       <workItem from="1546778442613" duration="3249000" />
       <workItem from="1546843490743" duration="8631000" />
       <workItem from="1546860645033" duration="8188000" />
+      <workItem from="1546945454302" duration="3844000" />
+      <workItem from="1546949387142" duration="1034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89788000" />
+    <option name="totallyTimeSpent" value="94666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -448,7 +453,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -459,7 +463,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20951156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21465296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -471,6 +475,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,52 +568,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Easy/MaximumSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/ImplementStrStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/SearchInsertPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/CountAndSay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2593#2594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/RemoveDuplicatesSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/LongestCommonPrefix.java" />
     <entry file="file://$PROJECT_DIR$/src/Easy/LongestCommonPrefix.java" />
     <entry file="file://$PROJECT_DIR$/src/Easy/Roman2Integer.java">
@@ -874,11 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#331#332#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,16 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/Code_108_ConvertSortedArrayToBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/Code_268_MissingNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -972,14 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/Code_PowerOfThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_PowerOfThree.java" />
     <entry file="file://$PROJECT_DIR$/src/Easy/Code_326_PowerOfThree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -998,8 +935,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/Code_198_HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
+        <state relative-caret-position="230">
           <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_172_FactorialTrailingZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_141_LinkedListCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_234_PalindromeLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_108_ConvertSortedArrayToBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_771_JewelsAndStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_461_HammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
