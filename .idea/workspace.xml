@@ -22,11 +22,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Easy/Code_572_SubtreeOfAnotherTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="125">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Easy/Code_438_FindAllAnagramsInString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Easy/Code_371_SumOfTwoIntegers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -34,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Easy/Code_234_PalindromeLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="700">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -43,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Easy/Code_437_PathSumOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="19" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -62,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Easy/LengthOfLastWord.java" />
-        <option value="$PROJECT_DIR$/src/Easy/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/Easy/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/Easy/Sqrtx.java" />
         <option value="$PROJECT_DIR$/src/Easy/ClimbingStairs.java" />
@@ -113,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/Easy/Code_226_InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Easy/Code_437_PathSumOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Easy/Code_572_SubtreeOfAnotherTree.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_438_FindAllAnagramsInString.java" />
+        <option value="$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java" />
       </list>
     </option>
   </component>
@@ -136,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,17 +189,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547388178930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547467042747" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_572_SubtreeOfAnotherTree">
+  <component name="RunManager" selected="Application.Code_581_ShortestUnsortedContinuousSubarray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -191,34 +221,6 @@
     </configuration>
     <configuration name="Code_121_BestTimeBuyAndSellStock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Easy.Code_121_BestTimeBuyAndSellStock1" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_125_ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Code_125_ValidPalindrome" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_189_RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Code_189_RotateArray" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -244,8 +246,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code_438_FindAllAnagramsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Code_438_FindAllAnagramsInString" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code_572_SubtreeOfAnotherTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Easy.Code_572_SubtreeOfAnotherTree" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_581_ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Code_581_ShortestUnsortedContinuousSubarray" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -290,18 +320,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Code_234_PalindromeLinkedList" />
-      <item itemvalue="Application.Code_125_ValidPalindrome" />
-      <item itemvalue="Application.Code_189_RotateArray" />
       <item itemvalue="Application.Code_121_BestTimeBuyAndSellStock1" />
       <item itemvalue="Application.Code_572_SubtreeOfAnotherTree" />
+      <item itemvalue="Application.Code_438_FindAllAnagramsInString" />
+      <item itemvalue="Application.Code_581_ShortestUnsortedContinuousSubarray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_581_ShortestUnsortedContinuousSubarray" />
+        <item itemvalue="Application.Code_438_FindAllAnagramsInString" />
         <item itemvalue="Application.Code_572_SubtreeOfAnotherTree" />
         <item itemvalue="Application.Code_234_PalindromeLinkedList" />
         <item itemvalue="Application.Code_121_BestTimeBuyAndSellStock1" />
-        <item itemvalue="Application.Code_189_RotateArray" />
-        <item itemvalue="Application.Code_125_ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -340,17 +370,19 @@
       <workItem from="1547341552813" duration="5331000" />
       <workItem from="1547347807936" duration="1755000" />
       <workItem from="1547377826564" duration="7564000" />
+      <workItem from="1547447458823" duration="3975000" />
+      <workItem from="1547464091290" duration="3516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119202000" />
+    <option name="totallyTimeSpent" value="126693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23071979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23714653" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +392,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21265142" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30686405" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30551818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -491,31 +523,52 @@
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_438_FindAllAnagramsInString.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Easy/AddBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2482">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/Sqrtx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/MaximumSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/MaximumSubarrayContinuity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
@@ -531,13 +584,6 @@
             <element signature="e#241#242#0" />
             <element signature="e#283#284#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/MergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -604,17 +650,6 @@
           <folding>
             <element signature="e#1636#1637#0" expanded="true" />
             <element signature="e#1692#1693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/Code_371_SumOfTwoIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="e#560#561#0" />
-            <element signature="e#588#589#0" />
           </folding>
         </state>
       </provider>
@@ -840,24 +875,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_438_FindAllAnagramsString.java" />
+    <entry file="file://$PROJECT_DIR$/src/Easy/MergeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_572_SubtreeOfAnotherTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_371_SumOfTwoIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/Code_234_PalindromeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="700">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/Code_437_PathSumOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="19" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/Code_572_SubtreeOfAnotherTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_438_FindAllAnagramsInString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="25">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
         </state>
       </provider>
     </entry>
