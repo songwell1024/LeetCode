@@ -22,14 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/Code_406_QueueReconstructionByHeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-284">
+              <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_647_PalindromicSubstrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_238_ProductOfArrayExceptSelf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -37,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17650">
+            <state relative-caret-position="116">
               <caret line="748" column="33" selection-start-line="748" selection-start-column="33" selection-end-line="748" selection-end-column="33" />
               <folding>
                 <element signature="e#26813#26814#0" expanded="true" />
@@ -60,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Easy/ClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/Easy/RemoveDuplicatesFromSortedList.java" />
         <option value="$PROJECT_DIR$/src/Easy/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/Easy/SameTree.java" />
         <option value="$PROJECT_DIR$/src/Easy/SymmetricTree.java" />
@@ -111,6 +124,8 @@
         <option value="$PROJECT_DIR$/src/Easy/Code_581_ShortestUnsortedContinuousSubarray.java" />
         <option value="$PROJECT_DIR$/src/medium/Code_338_CountingBits.java" />
         <option value="$PROJECT_DIR$/src/medium/Code_406_QueueReconstructionByHeight.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_647_PalindromicSubstrings.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_238_ProductOfArrayExceptSelf.java" />
       </list>
     </option>
   </component>
@@ -134,7 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,14 +172,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547541737098" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547640701207" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud/eurekaclient" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -180,19 +195,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_406_QueueReconstructionByHeight">
+  <component name="RunManager" selected="Application.Code_238_ProductOfArrayExceptSelf">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_234_PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Code_234_PalindromeLinkedList" />
+    <configuration name="Code_238_ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_238_ProductOfArrayExceptSelf" />
       <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_572_SubtreeOfAnotherTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Code_572_SubtreeOfAnotherTree" />
+    <configuration name="Code_581_ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Easy.Code_581_ShortestUnsortedContinuousSubarray" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -242,13 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_581_ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Easy.Code_581_ShortestUnsortedContinuousSubarray" />
+    <configuration name="Code_647_PalindromicSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_647_PalindromicSubstrings" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Code_234_PalindromeLinkedList" />
-      <item itemvalue="Application.Code_572_SubtreeOfAnotherTree" />
       <item itemvalue="Application.Code_438_FindAllAnagramsInString" />
       <item itemvalue="Application.Code_581_ShortestUnsortedContinuousSubarray" />
       <item itemvalue="Application.Code_406_QueueReconstructionByHeight" />
+      <item itemvalue="Application.Code_647_PalindromicSubstrings" />
+      <item itemvalue="Application.Code_238_ProductOfArrayExceptSelf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_238_ProductOfArrayExceptSelf" />
+        <item itemvalue="Application.Code_647_PalindromicSubstrings" />
         <item itemvalue="Application.Code_406_QueueReconstructionByHeight" />
         <item itemvalue="Application.Code_581_ShortestUnsortedContinuousSubarray" />
         <item itemvalue="Application.Code_438_FindAllAnagramsInString" />
-        <item itemvalue="Application.Code_572_SubtreeOfAnotherTree" />
-        <item itemvalue="Application.Code_234_PalindromeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -342,17 +358,17 @@
       <workItem from="1547464091290" duration="3516000" />
       <workItem from="1547533828069" duration="6643000" />
       <workItem from="1547546832113" duration="1529000" />
+      <workItem from="1547627491100" duration="5148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134865000" />
+    <option name="totallyTimeSpent" value="140013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24678664" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,15 +553,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/medium/Code_406_QueueReconstructionByHeight.java</url>
-          <line>79</line>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/medium/Code_406_QueueReconstructionByHeight.java</url>
-          <line>58</line>
+          <line>55</line>
           <properties />
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_647_PalindromicSubstrings.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_647_PalindromicSubstrings.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_238_ProductOfArrayExceptSelf.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_238_ProductOfArrayExceptSelf.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -556,24 +596,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Easy/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Easy/MaximumDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#252#253#0" />
-            <element signature="e#290#291#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Easy/Code_412_FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -897,24 +919,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/Code_406_QueueReconstructionByHeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17650">
+        <state relative-caret-position="116">
           <caret line="748" column="33" selection-start-line="748" selection-start-column="33" selection-end-line="748" selection-end-column="33" />
           <folding>
             <element signature="e#26813#26814#0" expanded="true" />
             <element signature="e#26846#26847#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_406_QueueReconstructionByHeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_647_PalindromicSubstrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_238_ProductOfArrayExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
         </state>
       </provider>
     </entry>

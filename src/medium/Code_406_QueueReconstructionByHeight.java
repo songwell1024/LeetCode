@@ -1,9 +1,6 @@
 package medium;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @program:
@@ -113,6 +110,38 @@ public class Code_406_QueueReconstructionByHeight {
         }
 
         return res;
+    }
+
+    //优先级队列  ******************重要的
+    static class PairComp implements Comparator<int[]> {
+        public int compare(int[] p1, int[] p2){
+            int comp_h = Integer.compare(p2[0], p1[0]);  //先按身高排，当身高相同按照人数排
+            return comp_h == 0 ? Integer.compare(p1[1], p2[1]): comp_h;
+        }
+    }
+    public static int[][] reconstructQueue2(int[][] people) {
+        LinkedList<int[]> list = new LinkedList();
+        PriorityQueue<int[]> queue = new PriorityQueue<int[]>(1, new PairComp() );
+        for (int[] ppl: people){
+            queue.offer( ppl );
+        }
+        while ( ! queue.isEmpty() ) {
+            int[] pair = queue.poll();
+            list.add(pair[1], pair);
+        }
+        int[][] ret = new int[people.length][];
+        for (int i=0; i<list.size(); i++){
+            ret[i] = list.get(i);
+        }
+        return ret;
+    }
+
+    public static void main(String[] args){
+
+        int[][] people = {{7,0}, {4,4}, {7,1}, {5,0}, {6,1}, {5,2}};
+        reconstructQueue2(people);
+
+
     }
 
 
