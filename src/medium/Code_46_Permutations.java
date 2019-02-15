@@ -1,7 +1,6 @@
 package medium;
 
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,25 +12,33 @@ import java.util.List;
  **/
 public class Code_46_Permutations {
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> lists = new LinkedList<>();
-        List<Integer> list = new LinkedList<>();
-        for (int i = 0; i < nums.length; i++){
-            list.add(nums[i]);
-            lists.add(list);
-        }
+        List<List<Integer>> resList = new ArrayList<>();
 
-        while (((LinkedList<List<Integer>>) lists).peek().size() != nums.length){
-            for (int i = 0; i < nums.length; i++){
-               for (int j = 0; j < nums.length; j++){
-                   if (!lists.get(j).contains(nums[i])){
-                       lists.get(j).add(nums[i]);
-                   }
-               }
-            }
-        }
-        return lists;
-
+        premuteProcess(nums, resList, 0);
+        return resList;
     }
 
+    public void premuteProcess(int[] nums, List<List<Integer>> lists,int start){
+        if (start >= nums.length){
+            List<Integer> list = new ArrayList<>();
+            for (int num : nums){
+                list.add(num);
+            }
+
+            lists.add(list);
+        }else {
+            for (int i= start; i < nums.length; i++){
+                swap(nums, start, i);
+                premuteProcess(nums, lists, start + 1);
+                swap(nums, start, i);
+            }
+        }
+    }
+
+    public void swap(int[] nums, int i, int j){
+        int helpIndex = nums[i];
+        nums[i] = nums[j];
+        nums[j] = helpIndex;
+    }
 
 }
