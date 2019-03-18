@@ -63,7 +63,6 @@ public class Code_26_ConvertSearchTreeToTwoList<K> {
         node.right.left = new TreeNode(6);
         node.right.right = new TreeNode(8);
         Convert(node);
-        HashMap map = new ConcurrentHashMap<>()
     }
 
 }
