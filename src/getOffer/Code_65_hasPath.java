@@ -17,6 +17,7 @@ public class Code_65_hasPath {
         boolean[] flag = new boolean[matrix.length];
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < cols; j++){
+				return true;
             }
         }
     }
