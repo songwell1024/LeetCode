@@ -52,11 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/Code_200_NumberIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+            <state relative-caret-position="443">
+              <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_240_Search2DMatrixII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3290">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -79,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/getOffer/Code_21_IsPopOrder.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_22_PrintFromTopToBottom.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_23_VerifySquenceOfBST.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_24_FindPath.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_25_CloneComplexList.java" />
@@ -130,6 +146,8 @@
         <option value="$PROJECT_DIR$/src/getOffer/Code_66_movingCount.java" />
         <option value="$PROJECT_DIR$/src/medium/Code_17_LetterCombinationsPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/medium/Code_200_NumberIslands.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_240_Search2DMatrixII.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java" />
       </list>
     </option>
   </component>
@@ -154,6 +172,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,23 +185,16 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554384294666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554810717138" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -204,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_200_NumberIslands">
+  <component name="RunManager" selected="Application.Code_300_LongestIncreasingSubsequence">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -239,13 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code_64_maxInWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="getOffer.Code_64_maxInWindows" />
+    <configuration name="Code_300_LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_300_LongestIncreasingSubsequence" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="getOffer.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,19 +324,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Code_64_maxInWindows" />
       <item itemvalue="Application.Code_65_hasPath" />
       <item itemvalue="Application.Code_66_movingCount" />
       <item itemvalue="Application.Code_17_LetterCombinationsPhoneNumber" />
       <item itemvalue="Application.Code_200_NumberIslands" />
+      <item itemvalue="Application.Code_300_LongestIncreasingSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_300_LongestIncreasingSubsequence" />
         <item itemvalue="Application.Code_200_NumberIslands" />
         <item itemvalue="Application.Code_17_LetterCombinationsPhoneNumber" />
         <item itemvalue="Application.Code_66_movingCount" />
         <item itemvalue="Application.Code_65_hasPath" />
-        <item itemvalue="Application.Code_64_maxInWindows" />
       </list>
     </recent_temporary>
   </component>
@@ -419,17 +431,18 @@
       <workItem from="1554099702589" duration="8688000" />
       <workItem from="1554203284660" duration="3535000" />
       <workItem from="1554376517753" duration="6733000" />
+      <workItem from="1554790477838" duration="14248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398444000" />
+    <option name="totallyTimeSpent" value="412692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15167095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22943445" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -822,6 +835,30 @@
           <properties />
           <option name="timeStamp" value="203" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -831,23 +868,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_27_Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="37" selection-start-line="37" selection-end-line="43" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_28_MoreThanHalfNum_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1235,8 +1255,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_200_NumberIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        <state relative-caret-position="443">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_240_Search2DMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3290">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
