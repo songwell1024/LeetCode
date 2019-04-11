@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="addadbcc-eaa7-4cf5-825f-46ec8ef43790" name="Default" comment="">
+    <list default="true" id="addadbcc-eaa7-4cf5-825f-46ec8ef43790" name="Default" comment="Construct Binary Tree from Preorder and Inorder Traversal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/medium/Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="1007">
               <caret line="57" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554991187219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554991523031" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -402,16 +400,30 @@
       <workItem from="1554376517753" duration="6733000" />
       <workItem from="1554790477838" duration="14248000" />
       <workItem from="1554901168145" duration="47000" />
-      <workItem from="1554971123643" duration="8017000" />
+      <workItem from="1554971123643" duration="8524000" />
     </task>
+    <task id="LOCAL-00001" summary="Construct Binary Tree from Preorder and Inorder Traversal">
+      <created>1554991167348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554991167348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Construct Binary Tree from Preorder and Inorder Traversal">
+      <created>1554991229206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554991229206</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420756000" />
+    <option name="totallyTimeSpent" value="421263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -423,7 +435,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21265142" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2852459" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2852459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -450,7 +462,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Construct Binary Tree from Preorder and Inorder Traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Construct Binary Tree from Preorder and Inorder Traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,7 +1230,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="1007">
           <caret line="57" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
