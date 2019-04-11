@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="addadbcc-eaa7-4cf5-825f-46ec8ef43790" name="Default" comment="" />
+    <list default="true" id="addadbcc-eaa7-4cf5-825f-46ec8ef43790" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/Code_300_LongestIncreasingSubsequence.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,75 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/getOffer/Code_65_hasPath.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/getOffer/Code_66_movingCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="51" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/Code_17_LetterCombinationsPhoneNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="44" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="116">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/Code_200_NumberIslands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/Code_240_Search2DMatrixII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="35" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/WrittenExamination/NumberByte/Main1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WrittenExamination/Tencent/Main.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -108,11 +53,12 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/getOffer/Code_25_CloneComplexList.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Mian.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_26_ConvertSearchTreeToTwoList.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_27_Permutation.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_28_MoreThanHalfNum_Solution.java" />
@@ -162,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/Main1.java" />
         <option value="$PROJECT_DIR$/src/WrittenExamination/Tencent/Main.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_105_ConstructBinaryTreefromPreorderAndInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -175,10 +123,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="253" />
-    <option name="y" value="98" />
-    <option name="width" value="1022" />
-    <option name="height" value="851" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -201,7 +149,7 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,10 +162,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554810717138" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554991044845" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -237,9 +185,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_300_LongestIncreasingSubsequence">
+  <component name="RunManager" selected="Application.Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,20 +241,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_65_hasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="getOffer.Code_65_hasPath" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +293,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Code_65_hasPath" />
       <item itemvalue="Application.Code_66_movingCount" />
       <item itemvalue="Application.Code_17_LetterCombinationsPhoneNumber" />
       <item itemvalue="Application.Code_200_NumberIslands" />
       <item itemvalue="Application.Code_300_LongestIncreasingSubsequence" />
+      <item itemvalue="Application.Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal" />
         <item itemvalue="Application.Code_300_LongestIncreasingSubsequence" />
         <item itemvalue="Application.Code_200_NumberIslands" />
         <item itemvalue="Application.Code_17_LetterCombinationsPhoneNumber" />
         <item itemvalue="Application.Code_66_movingCount" />
-        <item itemvalue="Application.Code_65_hasPath" />
       </list>
     </recent_temporary>
   </component>
@@ -454,17 +402,18 @@
       <workItem from="1554376517753" duration="6733000" />
       <workItem from="1554790477838" duration="14248000" />
       <workItem from="1554901168145" duration="47000" />
+      <workItem from="1554971123643" duration="8017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="412739000" />
+    <option name="totallyTimeSpent" value="420756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23264782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,7 +423,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21265142" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28532976" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2852459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -499,6 +448,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,21 +842,7 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="1459" column="16" selection-start-line="1459" selection-start-column="16" selection-end-line="1459" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/HeapSort.java" />
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/Random.java" />
     <entry file="file://$PROJECT_DIR$/src/getOffer/QuickSort.java" />
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_29_GetLeastNumbers_Solution.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1105,13 +1043,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="200" column="25" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/StringBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_54_FirstAppearingOnce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -1119,17 +1051,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51150">
-          <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
-          <folding>
-            <element signature="e#82616#82617#0" expanded="true" />
-            <element signature="e#82667#82668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_55_EntryNodeOfLoop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
@@ -1200,17 +1122,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2907">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-          <folding>
-            <element signature="e#4308#4309#0" expanded="true" />
-            <element signature="e#4360#4361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/PriorityQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_63_GetMedian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1239,21 +1151,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_65_hasPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
+        <state relative-caret-position="783">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_66_movingCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
+        <state relative-caret-position="1377">
           <caret line="51" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_17_LetterCombinationsPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
+        <state relative-caret-position="1188">
           <caret line="44" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1263,22 +1175,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_200_NumberIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
+        <state relative-caret-position="1512">
           <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_240_Search2DMatrixII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
+        <state relative-caret-position="945">
           <caret line="35" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_300_LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="351">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1287,8 +1199,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WrittenExamination/NumberByte/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="162">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_105_ConstructBinaryTreefromPreorderAndInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
