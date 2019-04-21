@@ -1,78 +1,68 @@
 package WrittenExamination.ByteDance;
 
-import java.util.*;
 import java.util.ArrayList;
+import java.util.Scanner;
+
+/**
+ * @ClassName: Main1
+ * @Description:
+ * @Author: WilsonSong
+ * @Date: 2019/4/14 11:00
+ * @Version 1.0
+ **/
 public class Main1 {
     public static void main(String[] args) {
-        HashMap<ArrayList<Integer>, Integer> map = new HashMap<>();
-        ArrayList<ArrayList<Integer>> lists = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for(int i = 0; i < n; i++){
-           ArrayList<Integer> list = new ArrayList<>();
-           list.add(sc.nextInt());
-           list.add(sc.nextInt());
-           lists.add(list);
-        }
-
-        lists.sort(new Comparator<ArrayList<Integer>>() {
-            @Override
-            public int compare(ArrayList<Integer> o1, ArrayList<Integer> o2) {
-                return o1.get(0) - o2.get(0);
+        int n = Integer.parseInt(sc.nextLine());
+        ArrayList<Integer> resList = new ArrayList<>();
+        for (int i = 0; i < n; i++){
+            int m = Integer.parseInt(sc.nextLine());
+            ArrayList<String> list = new ArrayList<>();
+            for (int j = 0; j < m; j++){
+                list.add(sc.nextLine());
             }
-        });
+            ArrayList<ArrayList<String>> listRes = new ArrayList<>();
+            for (int j = 0; j < list.size(); j++){
+                ArrayList<String> list1 = new ArrayList<>();
+                String s = list.get(j);
+                String[] strs = s.split(" ");
+                if (strs[0].equals("0")){
+                    list1.add("_");
+                }else {
+                    for (int k = 1; k< strs.length -1; k++){
+                        list1.add(strs[k] + "_" + strs[k + 1]);
+                        k++;
+                    }
+                }
+                listRes.add(list1);
+            }
 
-        System.out.println(lists.size());
-        for (int i = 0; i < lists.size(); i++){
-            System.out.print(lists.get(i).get(0));
-            System.out.print(" ");
-            System.out.println(lists.get(i).get(1));
-        }
-        int help = 0;
-        for (int i = 0; i < lists.size(); i++){
-            for (int j = 0; j < i; j++){
-                if (lists.get(i).get(0) > lists.get(j).get(0) && lists.get(i).get(1) > lists.get(j).get(1)){
-                    ArrayList<Integer> l = new ArrayList<>();
-                    l.add(lists.get(j).get(1));
-                    l.add(lists.get(j).get(1));
-                    help++;
-                    map.put(l, help);
-                }else if (lists.get(i).get(0) > lists.get(j).get(0) && lists.get(i).get(1) < lists.get(j).get(1)){
-                    ArrayList<Integer> l = new ArrayList<>();
-                    l.add(lists.get(j).get(1));
-                    l.add(lists.get(i).get(1));
-                    help++;
-                    map.put(l, help);
-                }else if (lists.get(i).get(0) < lists.get(j).get(0) && lists.get(i).get(1) < lists.get(j).get(1)){
-                    ArrayList<Integer> l = new ArrayList<>();
-                    l.add(lists.get(j).get(1));
-                    l.add(lists.get(j).get(1));
-                    help = 1;
-                    map.put(l, help);
-                }else if (lists.get(i).get(0) == lists.get(j).get(0) && lists.get(i).get(1) == lists.get(j).get(1)){
-                    ArrayList<Integer> l = new ArrayList<>();
-                    l.add(lists.get(j).get(1));
-                    l.add(lists.get(j).get(1));
-                    help = map.get(l) + 1;
-                    map.put(l, help);
+            int res = 0;
+            for (int l = 0; l < listRes.size(); l++){
+                if (!listRes.get(l).get(0).equals("_")){
+                    for (int p = 0; p < listRes.get(l).size(); p++){
+                        int cur = 0;
+                        for (int x = l; x < listRes.size(); x++){
+                            if (!listRes.get(x).get(0).equals( "_")){
+                                for (int  q = p; q < listRes.get(x).size(); q++){
+                                    if (listRes.get(x).get(p).equals(listRes.get(l).get(p))){
+                                        cur++;
+                                        break;
+                                    }
+                                }
+                            }else {
+                                break;
+                            }
+                        }
+                        res = Math.max(res, cur);
+                    }
                 }
             }
+            resList.add(res);
         }
-        List<Map.Entry<ArrayList<Integer>, Integer>> ll = new ArrayList<>();
-        ll.addAll(map.entrySet());
-        Collections.sort(ll, new Comparator<Map.Entry<ArrayList<Integer>, Integer>>() {
-            @Override
-            public int compare(Map.Entry<ArrayList<Integer>, Integer> o1, Map.Entry<ArrayList<Integer>, Integer> o2) {
-                return o1.getValue() - o2.getValue();
-            }
-        });
-        System.out.println(ll.size());
-        for (Iterator<Map.Entry<ArrayList<Integer>,Integer>> ite = ll.iterator(); ite.hasNext();){
-            Map.Entry<ArrayList<Integer>,Integer> m = ite.next();
-            System.out.println(m.getKey().get(0));
-            System.out.println(" ");
-            System.out.println(m.getKey().get(1));
-            System.out.println("\n");
+
+        for (int i = 0; i< resList.size(); i++){
+            System.out.println(resList.get(i));
         }
     }
 }

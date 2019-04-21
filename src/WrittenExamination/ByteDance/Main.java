@@ -1,47 +1,77 @@
 package WrittenExamination.ByteDance;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * @ClassName: Main1
+ * @Description:
+ * @Author: WilsonSong
+ * @Date: 2019/4/14 11:00
+ * @Version 1.0
+ **/
 public class Main {
-    private static class Node {
-        Node next;
-        int val;
-
-        public Node(int val){
-            this.val  =val;
-        }
-    }
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int m = 0;
-        int n = 0;
-        n = in.nextInt();
-        m = in.nextInt();
-        if (n == 0 && m == 0){
-            System.out.println(-1);
+        Scanner sc = new Scanner(System.in);
+        int n = Integer.parseInt(sc.nextLine());
+        ArrayList<Integer> resList = new ArrayList<>();
+        for (int i = 0; i < n; i++){
+            int m = Integer.parseInt(sc.nextLine());
+            ArrayList<String> list = new ArrayList<>();
+            for (int j = 0; j < m; j++){
+                list.add(sc.nextLine());
+            }
+
+            ArrayList<ArrayList<String>> listRes = new ArrayList<>();
+            for (int j = 0; j < list.size(); j++){
+                ArrayList<String> list1 = new ArrayList<>();
+                String s = list.get(j);
+                String[] strs = s.split(" ");
+                if (strs[0].equals("0")){
+                    list1.add("_");
+                }else {
+                    for (int k = 1; k< strs.length -1; k++){
+                        list1.add(strs[k] + "_" + strs[k + 1]);
+                        k++;
+                    }
+                }
+                listRes.add(list1);
+            }
+
+            int res = 0;
+            for (int l = 0; l < listRes.size(); l++){
+                if (!listRes.get(l).get(0).equals("_")){
+                    for (int p = 0; p < listRes.get(l).size(); p++){
+                        int cur = 0;
+                        for (int x = l; x < listRes.size(); x++){
+                            if (!listRes.get(x).get(0).equals("_")){
+                                if (p < listRes.get(x).size()){
+                                    if (listRes.get(x).get(p).equals(listRes.get(l).get(p))) {
+                                        cur++;
+                                    }else {
+                                        break;
+                                    }
+                                }else {
+                                    break;
+                                }
+                            }else {
+                                break;
+                            }
+                        }
+                        res = Math.max(res, cur);
+                    }
+                }
+            }
+            resList.add(res);
         }
 
-        Node root =  new Node(1);
-        Node cur = root;
-        for (int i = 2; i <= n; i ++){
-            cur.next = new Node(i);
-            cur = cur.next;
-        }
-        cur.next = root;
-        cur = root;
-        int index = 1;
-        int help = m;
-        while (cur.next.val != cur.val && index != n){
-            for (int i = 1; i < m-1; i++){
-                cur = cur.next;
+        for (int i = 0; i< resList.size(); i++){
+            if (resList.get(i) < 2){
+                System.out.println(1);
+            }else {
+                System.out.println(resList.get(i));
             }
-            Node node = cur.next;
-            cur.next = node.next;
-            node = null;
-            cur = cur.next;
-            m *= help;
-            index ++;
+
         }
-        System.out.println( cur.val);
     }
 }
