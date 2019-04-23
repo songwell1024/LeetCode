@@ -37,7 +37,7 @@ LeetCode:. </br>
 　　　　　├─Others</br>
 　　　　　├─Tencent</br>
 　　　　　└─XieCheng</br>
-easy：目录下为LeetCode简单题目，每道题目的名字为Code_***_xxx,***为对应的题号，xxx为对应的题目名字；</br>
+easy：目录下为LeetCode简单题目，每道题目的名字为Code_/*/*/*_xxx,/*/*/*/为对应的题号，xxx为对应的题目名字；</br>
 getOffer:为牛客网上的剑指offer对应的题目</br>
-medium：为LeetCode中等题目，每道题目的名字为Code_***_xxx,***为对应的题号，xxx为对应的一幕名字；</br>
+medium：为LeetCode中等题目，每道题目的名字为Code_/*/*/*/_xxx,/*/*/*/为对应的题号，xxx为对应的一幕名字；</br>
 WrittenExamination:为对应的笔试题目</br>
