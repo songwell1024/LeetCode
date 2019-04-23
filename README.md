@@ -1,6 +1,6 @@
 # LeetCode题库 </br>
 目录结构：</br>
-<font size=2>
+<font size=1>
 LeetCode:. </br>
   ├─.idea </br>
 　│　├─fileTemplates </br>
