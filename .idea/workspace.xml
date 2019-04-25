@@ -6,13 +6,19 @@
       <change afterPath="$PROJECT_DIR$/src/TypicalExample/Code_01.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TypicalExample/Code_02.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/JD/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WrittenExamination/MeiTuan/MoveToBlackAndWitheMatrix.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Others/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Others/Main1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Others/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Safe360/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Safe360/Main1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Tencent/Main1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Tencent/Main2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WrittenExamination/Tencent/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/Code_139_WordBreak.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/medium/Code_207_CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/Code_236_LowestCommonAncestorOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/Code_56_MergeIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/WrittenExamination/ByteDance/Input.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/WrittenExamination/ByteDance/Main$Node.class" beforeDir="false" />
@@ -63,20 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TypicalExample/Code_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TypicalExample/Code_02.java">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_139_WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="794">
+              <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,13 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/getOffer/Code_35_InversePairs.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_36_FindFirstCommonNode.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_37_GetNumberOfK.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_38_TreeDepth.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_39_IsBalanced_Solution.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_40_FindNumsAppearOnce.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_41_FindContinuousSequence.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_42_FindNumbersWithSum.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_43_LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_44_ReverseSentence.java" />
@@ -156,6 +146,13 @@
         <option value="$PROJECT_DIR$/src/Model/DFS.java" />
         <option value="$PROJECT_DIR$/src/TypicalExample/Code_01.java" />
         <option value="$PROJECT_DIR$/src/TypicalExample/Code_02.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_236_LowestCommonAncestorOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/WrittenExamination/MeiTuan/MoveToBlackAndWitheMatrix.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_56_MergeIntervals.java" />
+        <option value="$PROJECT_DIR$/src/WrittenExamination/Safe360/Test.java" />
+        <option value="$PROJECT_DIR$/src/WrittenExamination/Safe360/Main.java" />
+        <option value="$PROJECT_DIR$/src/WrittenExamination/Safe360/Main1.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_139_WordBreak.java" />
       </list>
     </option>
   </component>
@@ -168,17 +165,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-27" />
+    <option name="y" value="3" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,26 +193,26 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TypicalExample" type="462c0819:PsiDirectoryNode" />
+              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="Safe360" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555829197274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556181102214" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -237,23 +235,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_02">
+  <component name="RunManager" selected="Application.Code_139_WordBreak">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypicalExample.Code_01" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TypicalExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,13 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WrittenExamination.ByteDance.Main" />
+    <configuration name="Code_139_WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_139_WordBreak" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WrittenExamination.ByteDance.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,13 +270,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WrittenExamination.ByteDance.Main1" />
+    <configuration name="Code_236_LowestCommonAncestorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_236_LowestCommonAncestorOfBinaryTree" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WrittenExamination.ByteDance.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,13 +284,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WrittenExamination.Tencent.Main3" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WrittenExamination.Safe360.Main" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WrittenExamination.Tencent.*" />
+          <option name="PATTERN" value="WrittenExamination.Safe360.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WrittenExamination.Safe360.Test" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WrittenExamination.Safe360.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,19 +343,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main1" />
-      <item itemvalue="Application.Code_01" />
       <item itemvalue="Application.Code_02" />
+      <item itemvalue="Application.Code_236_LowestCommonAncestorOfBinaryTree" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Code_139_WordBreak" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_139_WordBreak" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Code_236_LowestCommonAncestorOfBinaryTree" />
         <item itemvalue="Application.Code_02" />
-        <item itemvalue="Application.Code_01" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +462,15 @@
       <workItem from="1555593556967" duration="117000" />
       <workItem from="1555676732296" duration="595000" />
       <workItem from="1555753820853" duration="10725000" />
-      <workItem from="1555808740528" duration="9849000" />
+      <workItem from="1555808740528" duration="10101000" />
+      <workItem from="1555913660353" duration="9492000" />
+      <workItem from="1556021707909" duration="3801000" />
+      <workItem from="1556086332082" duration="36000" />
+      <workItem from="1556089520882" duration="3394000" />
+      <workItem from="1556103780783" duration="4112000" />
+      <workItem from="1556109435057" duration="76000" />
+      <workItem from="1556175479732" duration="5090000" />
+      <workItem from="1556181483965" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Construct Binary Tree from Preorder and Inorder Traversal">
       <created>1554991167348</created>
@@ -484,13 +490,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462991000" />
+    <option name="totallyTimeSpent" value="489600000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-27" y="3" width="1382" height="735" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -499,8 +504,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90166414" weight="0.2704918" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.10819672" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90166414" weight="0.26955074" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36938435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -935,6 +940,18 @@
           <properties />
           <option name="timeStamp" value="246" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_139_WordBreak.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medium/Code_139_WordBreak.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -945,61 +962,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_50_duplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_51_multiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_52_match.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_53_isNumeric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/StringBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_54_FirstAppearingOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_55_EntryNodeOfLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_57_GetNext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_56_deleteDuplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1304,13 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypicalExample/Code_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_207_CourseSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1321,10 +1276,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_56_MergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WrittenExamination/Safe360/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/TypicalExample/Code_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TypicalExample/Code_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="2106">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_236_LowestCommonAncestorOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WrittenExamination/MeiTuan/MoveToBlackAndWitheMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WrittenExamination/Safe360/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WrittenExamination/Safe360/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="64" />
+          <folding>
+            <element signature="e#735#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="948" column="18" selection-start-line="948" selection-start-column="18" selection-end-line="948" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="2222" column="57" selection-start-line="2222" selection-start-column="57" selection-end-line="2222" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_139_WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
