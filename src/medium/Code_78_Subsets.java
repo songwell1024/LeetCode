@@ -1,8 +1,5 @@
 package medium;
 
-
-import com.sun.org.apache.bcel.internal.generic.LUSHR;
-import javafx.scene.input.InputMethodTextRun;
 import org.w3c.dom.ls.LSInput;
 
 import java.util.ArrayList;
