@@ -25,11 +25,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/Code_33_SearchInRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
+            <state relative-caret-position="643">
               <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_142_LinkedListCycleII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="824">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/Code_55_JumpGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -52,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/getOffer/Code_33_GetUglyNumber_Solution.java" />
-        <option value="$PROJECT_DIR$/src/getOffer/Code_34_FirstNotRepeatingChar.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_35_InversePairs.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_36_FindFirstCommonNode.java" />
         <option value="$PROJECT_DIR$/src/getOffer/Code_37_GetNumberOfK.java" />
@@ -103,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/medium/Code_34_FindFirstAndLastPositionOfElementInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/medium/Code_221_MaximalSquare.java" />
         <option value="$PROJECT_DIR$/src/medium/Code_33_SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_142_LinkedListCycleII.java" />
+        <option value="$PROJECT_DIR$/src/medium/Code_55_JumpGame.java" />
       </list>
     </option>
   </component>
@@ -126,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -181,9 +199,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_19_RemoveNthNodeFromEndOfList">
+  <component name="RunManager" selected="Application.Code_142_LinkedListCycleII">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code_142_LinkedListCycleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Code_142_LinkedListCycleII" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,20 +236,6 @@
     </configuration>
     <configuration name="Code_19_RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.Code_19_RemoveNthNodeFromEndOfList" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code_200_NumberIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Code_200_NumberIslands" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -292,17 +310,17 @@
     <list>
       <item itemvalue="Application.Code_148_SortList" />
       <item itemvalue="Application.Code_19_RemoveNthNodeFromEndOfList" />
-      <item itemvalue="Application.Code_200_NumberIslands" />
       <item itemvalue="Application.Code_300_LongestIncreasingSubsequence" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Code_142_LinkedListCycleII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_142_LinkedListCycleII" />
         <item itemvalue="Application.Code_19_RemoveNthNodeFromEndOfList" />
         <item itemvalue="Application.Code_148_SortList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Code_300_LongestIncreasingSubsequence" />
-        <item itemvalue="Application.Code_200_NumberIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -413,16 +431,18 @@
       <workItem from="1558146037613" duration="593000" />
       <workItem from="1558611251478" duration="7000" />
       <workItem from="1559214440404" duration="9147000" />
+      <workItem from="1559476757815" duration="1147000" />
+      <workItem from="1559561696714" duration="3913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442436000" />
+    <option name="totallyTimeSpent" value="447496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28470436" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29241645" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,7 +453,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21265142" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29526463" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29475102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -855,24 +875,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_39_IsBalanced_Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/getOffer/Code_40_FindNumsAppearOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/getOffer/Code_41_FindContinuousSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1227,8 +1229,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/Code_33_SearchInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
+        <state relative-caret-position="643">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_142_LinkedListCycleII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/Code_55_JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
