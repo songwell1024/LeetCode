@@ -96,11 +96,11 @@ public class Code_207_CourseSchedule {
 
             boolean[] visited = new boolean[numCourses];
             for(int i=0; i<prerequisites.length;i++){
-                graph[prerequisites[i][1]].add(prerequisites[i][0]);
+                graph[prerequisites[i][1]].add(prerequisites[i][0]);           //修某一门课所依赖的课程
             }
 
             for(int i=0; i<numCourses; i++){
-                if(!dfs(graph,visited,i))
+                if(!dfs(graph,visited,i))           //这门课程如果有依赖的课程也依赖他，那么就明显是错误的，所有课程不能修完
                     return false;
             }
             return true;

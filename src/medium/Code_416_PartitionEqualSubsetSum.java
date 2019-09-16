@@ -36,6 +36,7 @@ public class Code_416_PartitionEqualSubsetSum {
 //            (n represents new value, i.e. updated)
 //    n n n n n ? . . . . . .  where another ? goes? Oops, it is overriden, we lost it :(
 //            #
+//  dp[i]表示能不能出现i的这个和
     public boolean canPartition(int[] nums) {
         if (nums == null || nums.length <= 1){
             return false;

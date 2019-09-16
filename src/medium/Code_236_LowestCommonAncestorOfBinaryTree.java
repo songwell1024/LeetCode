@@ -19,7 +19,6 @@ public class Code_236_LowestCommonAncestorOfBinaryTree {
           TreeNode right;
           TreeNode(int x) { val = x; }
       }
-    static HashMap<TreeNode, Integer> map = new HashMap<>();
      static HashSet<TreeNode> set ;
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null){

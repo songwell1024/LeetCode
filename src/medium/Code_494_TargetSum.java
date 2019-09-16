@@ -8,7 +8,7 @@ package medium;
  * @Modified by:
  **/
 
-public class Code_494_TargetSum {
+public class  Code_494_TargetSum {
     public int findTargetSumWays(int[] nums, int S) {
         if (nums == null){
             return 0;

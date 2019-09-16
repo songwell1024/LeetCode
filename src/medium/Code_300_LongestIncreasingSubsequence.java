@@ -13,8 +13,8 @@ import java.util.Arrays;
  * 输入： [10,9,2,5,3,7,101,18]
  * 输出： 4
  *  说明：增长最长的子序列是[2,3,7,101]，因此长度为4。
- *  新建一个数组A，遍历输入数组B，并且定义一个指针i，如果数组B的值大于A[i]的值，那么就把B的当前值放在i++的位置，再执行i++；
- *  如果数组B的值小于A[i]的值，就找数组B的当前值应该出现在数组中的那一个位置（在该位置前的数字一定都比这个数大，因此还是升序排序的一个子序列），
+ *  新建一个数组A，遍历输入数组B，并且定义一个指针i，如果数组B的值大于A[i]的值，那么就把B的当前值放在i的位置，再执行i++；
+ *  如果数组B的值小于A[i]的值，就找数组B的当前值应该出现在数组A中的那一个位置（在该位置前的数字一定都比这个数大，因此还是升序排序的一个子序列），
  *  并把那个位置的值用数组B中的当前值来替换掉；
  * @author: Song
  * @create: Created in 2019-04-09 14:44
@@ -70,6 +70,26 @@ public class Code_300_LongestIncreasingSubsequence {
 
             return len;
         }
+    }
+
+    //这跟解法就是新建一个数组，然后找输入数组中的值在新数组中的位置，如果是放在最后一个位置的时候证明新放进来的是最大的
+    //也就是保证了新加进来的使得递增序列长度加了1
+    public int lengthOfLIS3(int[] nums) {
+        int[] tails = new int[nums.length];
+        int size = 0;
+        for (int x : nums) {
+            int i = 0, j = size;
+            while (i != j) {
+                int m = (i + j) / 2;
+                if (tails[m] < x)
+                    i = m + 1;
+                else
+                    j = m;
+            }
+            tails[i] = x;
+            if (i == size) ++size;
+        }
+        return size;
     }
 
     public static int lengthOfLIS2(int[] nums) {

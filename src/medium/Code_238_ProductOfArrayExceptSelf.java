@@ -38,7 +38,7 @@ public class Code_238_ProductOfArrayExceptSelf {
     }
 
     public static void main(String[] args){
-        int[] nums = {1,2,3,4};
+        int[] nums = {2,3,4,5};
         productExceptSelf(nums);
 
     }

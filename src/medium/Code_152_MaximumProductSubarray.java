@@ -1,6 +1,5 @@
 package medium;
 
-import sun.nio.cs.ext.MacThai;
 
 /**
  * @ClassName: Code_152_MaximumProductSubarray

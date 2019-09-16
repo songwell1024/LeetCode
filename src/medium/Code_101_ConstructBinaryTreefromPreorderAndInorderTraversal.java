@@ -3,6 +3,8 @@ package medium;
 import java.awt.image.Kernel;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  * @ClassName Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal
@@ -56,10 +58,39 @@ public class Code_101_ConstructBinaryTreefromPreorderAndInorderTraversal {
         root.right = buildTree(rightPreNum, rightInNum);
         return root;
     }
-
-    public static void main(String[] args) {
-        int[] pre = {3,9,20,15,7};
-        int[] in = {9,3,15,20,7};
-        buildTree(pre, in);
+    public static int hou(List<Integer> list){
+        if (list.size() == 1){
+            return list.get(0);
+        }
+        List<Integer> list1 =new ArrayList<>();
+        for (int i = 0; i < list.size(); i++){
+            if ((i +1)%2 != 0){
+                list1.add(list.get(i));
+            }
+        }
+        return hou(list1);
     }
+
+    public static void main(String args[]){
+        dunc(1000);
+    }
+
+//    public static void main(String[] args) {
+////        List<Integer> list =new ArrayList<>();
+////        for (int i = 1; i<=305; i++){
+////            list.add(i);
+////        }
+////
+////        System.out.println( hou(list));
+//        if((" \d+\.?\d*").equals("12.5")){
+//
+//        }
+//    }
+    public static int dunc(int n){
+        int i = 1, sum =1;
+        while (sum < n) {sum+= ++i;
+        System.out.println(i);}
+        return i;
+    }
+
 }

@@ -1,9 +1,6 @@
 package medium;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ClassName: Code_139_WordBreak
@@ -74,6 +71,7 @@ public class Code_139_WordBreak {
     public static boolean wordBreak(String s, List<String> dict) {
 
         boolean[] f = new boolean[s.length() + 1];
+        Arrays.fill(f, false);
 
         f[0] = true;
 
