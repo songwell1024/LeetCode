@@ -1,7 +1,7 @@
 package WrittenExamination.Tencent;
 import java.util.*;
 /**
- * @ClassName: Main2
+ * @ClassName: WrittenExamination.dajiang.Main2
  * @Description:
  * @Author: WilsonSong
  * @Date: 2019/4/13 20:24

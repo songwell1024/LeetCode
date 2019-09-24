@@ -1,68 +1,66 @@
 package WrittenExamination.ByteDance;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
+/**
+ * @ClassName: Main5
+ * @Description:
+ * @Author: WilsonSong
+ * @Date: 2019/8/25 20:20
+ * @Version 1.0
+ **/
 public class Main5 {
-
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        Scanner in = new Scanner(System.in);
-        String s = in.nextLine();  //读取每一行
-        if (s.equals("none")){
-            System.out.println(true);
+        Scanner sc = new Scanner(System.in);
+        int n = Integer.valueOf(sc.nextLine());
+        int [] arr = new int[n];
+        String str = sc.nextLine();
+        for (int i = 0; i< n;i++){
+            arr[i] = Integer.valueOf(str.split(" ")[i]);
         }
-        String[] strs = s.split(",");
-        for (String str: strs){
-            list.add(Integer.parseInt(str));
-        }
-        for (int i = 0; (i*2 + 2) < list.size(); i++){
-            if (list.get(i) > list.get(i * 2 + 1) && list.get(i) < list.get(i * 2 + 2)){
-                if (!processRight(list.get(i),i * 2 + 2, list)){
-                    System.out.println(false);
-                    return;
+        List<HashMap<Integer, Integer>> list = new ArrayList<>();
+        for (int i = 0; i< n; i++){
+            for (int j = i+1; j < n; j++){
+                if (GCD(arr[i], arr[j]) > 1){
+                    HashMap<Integer,Integer> hashMap = new HashMap<>();
+                    hashMap.put(arr[i], arr[j]);
+                    list.add(hashMap);
                 }
-                if (!processLeft(list.get(i),i * 2 + 1, list)){
-                    System.out.println(false);
-                    return;
-                }
-            }else {
-                System.out.println(false);
-                return;
             }
         }
-        System.out.println(true);
+        int res = 0;
+        for (int i =0; i< list.size(); i++){
+            HashMap<Integer,Integer> hashMap = list.get(i);
+            int k = 0;
+            for(int K : hashMap.keySet()){
+                k = hashMap.get(K);
+            }
+            if (k!=0){
+                int help = 2;
+                for (int j = i+1; j< list.size(); j++){
+                    if (list.get(j).containsKey(k)){
+                        k = list.get(j).get(k);
+                        help++;
+                    }
+                }
+                res  =Math.max(res,help);
+            }
+        }
+        System.out.println(res);
+
     }
 
-    public static boolean processRight(int cur, int l, ArrayList<Integer> list){
-        if (l >= list.size()){
-            return true;
+    public static int GCD(int m, int n) {
+        int result = 0;
+        while (n != 0) {
+        result = m % n;
+        m = n;
+        n = result;
         }
-        if (l * 2 + 2 < list.size() ) {
-            if (cur < list.get(l * 2 + 1) && cur < list.get(l * 2 + 2)) {
-                return processRight(cur, l * 2 + 1, list) &
-                        processRight(cur, l * 2 + 2, list);
-            } else {
-                return false;
-            }
-        }{
-            return true;
-        }
+        return m;
     }
 
-    public static boolean processLeft(int cur, int l, ArrayList<Integer> list){
-        if (l >= list.size()){
-            return true;
-        }
-        if (l * 2 + 2 < list.size() ) {
-            if (cur > list.get(l * 2 + 1) && cur > list.get(l * 2 + 2)) {
-                return processLeft(cur, l * 2 + 1, list) &
-                        processLeft(cur, l * 2 + 2, list);
-            } else {
-                return false;
-            }
-        }{
-            return true;
-        }
-    }
 }
